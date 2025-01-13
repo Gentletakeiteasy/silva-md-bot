@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "254743706010"
+const ownervb = process.env.OWNERS || "2348020674070"
 
 
 const ownerlist = ownervb.split(';');
@@ -23,9 +23,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['254743706010', '254700143167']
-global.prems = ['254743706010', '254700143167', '254755267907']
-global.allowed = ['254743706010', '254700143167']
+global.mods = ['2348020674070', '254700143167']
+global.prems = ['2348020674070', '254700143167', '254755267907']
+global.allowed = ['2348020674070', '254700143167']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -76,7 +76,7 @@ global.author = 'silva'
 global.menuvid = ''
 global.igfg = ''
 global.dygp = ''
-global.fgsc = 'https://github.com/SilvaTechB/silva-md-bot'
+global.fgsc = 'https://github.com/Gentletakeiteasy/silva-md-bot'
 global.fgyt = 'https://youtube.com/@silvaedits254'
 global.fgpyp = 'https://youtube.com/@silvaedits254'
 global.fglog = ''
